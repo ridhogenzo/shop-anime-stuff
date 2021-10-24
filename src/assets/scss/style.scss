@@ -1,0 +1,108 @@
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+// -------------------------------- VARIABLE HELPER ---------------->
+.img-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+// <--------------------------------- NAVBAR ---------------------->
+.navbar {
+  .navbar-brand {
+    img {
+      position: absolute;
+      height: 50px;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+    .kyou-logo {
+      padding-right: 30px;
+    }
+  }
+  .navbar-nav {
+    position: flex;
+    margin-left: 70%;
+  }
+}
+
+// <------------------------------ Hero ------------------------->
+.container-fluid {
+  &.bg-hero {
+    background-color: red;
+  }
+  .carousel-indicators {
+    padding-right: 420px;
+    position: absolute;
+  }
+  .carousel-control-prev {
+    padding-right: 100px;
+    position: absolute;
+  }
+  .carousel-control-next {
+    margin-right: 395px;
+  }
+}
+.carousel {
+}
+.carousel-inner {
+  display: block;
+}
+//   .card {
+//     &.card-carousel {
+//       position: absolute;
+//       display: block;
+//       height: 300px;
+//       width: 300px;
+//       margin-top: -50px;
+//       z-index: 2;
+//       top: 0;
+//       right: 0;
+//       left: 0;
+//       bottom: 0;
+//       margin-left: 70px;
+//     }
+//   }
