@@ -13,6 +13,7 @@
 @import "type";
 @import "images";
 @import "code";
+@import "container-grid";
 @import "grid";
 @import "tables";
 @import "forms";
@@ -43,9 +44,24 @@
 @import "utilities";
 @import "print";
 
+//<-------------------------- GLOBAL -------------------------------->
+
+.background-grid {
+  background-color: rgba(#f7f7f7, 1);
+  // &.sort-bg {
+  //   padding-bottom: -100px;
+  // }
+}
+
 // -------------------------------- VARIABLE HELPER ---------------->
 .img-cover {
   object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.img-contain {
+  object-fit: contain;
   height: 100%;
   width: 100%;
 }
@@ -72,37 +88,131 @@
 // <------------------------------ Hero ------------------------->
 .container-fluid {
   &.bg-hero {
-    background-color: red;
+    background-color: cyan;
+    height: 550px;
   }
   .carousel-indicators {
-    padding-right: 420px;
-    position: absolute;
+    padding-right: 380px;
+    padding-bottom: 40px;
   }
   .carousel-control-prev {
-    padding-right: 100px;
-    position: absolute;
+    padding-right: 10px;
   }
   .carousel-control-next {
     margin-right: 395px;
   }
 }
-.carousel {
+.border {
+  height: 200px !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  background-color: orange;
+  margin: -70px 300px 0px 300px !important;
+  left: 0 !important;
+  right: 0 !important;
 }
-.carousel-inner {
-  display: block;
+button {
+  &.go-store {
+    background-color: white;
+    margin: 10px 20px;
+    position: absolute;
+    display: block;
+    border-radius: 1rem;
+    width: 250px;
+    &:hover {
+      background-color: #de8410;
+      span {
+        color: white;
+      }
+    }
+  }
 }
-//   .card {
-//     &.card-carousel {
-//       position: absolute;
-//       display: block;
-//       height: 300px;
-//       width: 300px;
-//       margin-top: -50px;
-//       z-index: 2;
-//       top: 0;
-//       right: 0;
-//       left: 0;
-//       bottom: 0;
-//       margin-left: 70px;
-//     }
+// .card {
+//   margin: 0px 274px 0 200px;
+//   &.store {
+//     height: 300px;
+//     left: 0;
+//     right: 0;
+//     position: absolute;
 //   }
+// }
+
+// <---------------------- BEST SELLER ---------------------->
+.container {
+  &.best-seller {
+    padding-top: 150px;
+  }
+  .card {
+    &.card-featured {
+      border-radius: 0.9375rem;
+      overflow: hidden;
+      cursor: pointer;
+      &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: scale(1.1);
+        transition: 0.5s transform ease-in-out;
+        z-index: 2;
+        @include gradient-y(rgba($black, 0), rgba($black, 0.45), 0%, 100%);
+      }
+    }
+    .img-wrapper {
+      height: 100%;
+      margin-bottom: 0px;
+      border-radius: 0.9375rem;
+      overflow: hidden;
+    }
+  }
+  .meta-wrapper {
+    margin-top: 1 rem;
+    h5 {
+      font-size: 0.875rem;
+      color: black;
+    }
+
+    span {
+      font-size: 0.875rem;
+    }
+    .label {
+      z-index: 3;
+      margin-top: 5px;
+      text-align: center;
+      font-size: 0.875rem;
+      background-color: green;
+      padding: 0.25rem 1.25rem;
+      position: relative;
+      color: white;
+      min-height: 30px;
+    }
+  }
+  .button-load-more {
+    margin: auto 200px;
+    .load-more {
+      background-color: orange;
+    }
+  }
+}
+
+//---------------------------------- SORTBY ---------------------------
+.card-img {
+  display: block;
+  margin-left: 70px;
+  margin-top: 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+.caption-image {
+  font-size: 1.25rem;
+  margin-left: 75px;
+  color: black;
+  z-index: 2;
+}
+.border-categories {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  background-color: rgba($orange, 0.2);
+}

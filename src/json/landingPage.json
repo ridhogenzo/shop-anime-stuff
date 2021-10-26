@@ -1,0 +1,268 @@
+{
+  "bestSeller": [
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Uzumaki Naruto",
+      "type": "Figure",
+      "imageUrl": "images/image1.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Uzumaki Hinata",
+      "type": "Figure",
+      "imageUrl": "images/image2.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Neji",
+      "type": "Figure",
+      "imageUrl": "images/image3.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Sukurajimai",
+      "type": "Figure",
+      "imageUrl": "images/image1.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Tanjiro",
+      "type": "Figure",
+      "imageUrl": "images/image2.jpg",
+      "label": "Ready Stock",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Power Chainsaw",
+      "type": "Figure",
+      "imageUrl": "images/image3.jpg",
+      "label": "Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image1.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image2.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image3.jpg",
+      "label": "Ready Stock",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image1.jpg",
+      "label": "Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image2.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Nendroid Shiba Miyuki",
+      "type": "Figure",
+      "imageUrl": "images/image3.jpg",
+      "label": "Late Pre Order",
+      "releaseDate": "Release November 2021",
+      "price": "530000"
+    }
+  ],
+
+  "category": [
+    {
+      "_id": "asd123asd123",
+      "name": "Pre Order",
+      "items": [
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Pre Order",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        }
+      ]
+    },
+    {
+      "_id": "asd123asd123",
+      "name": "Ready Stock",
+      "items": [
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        },
+        {
+          "_id": "asd123asd123",
+          "name": "Nendroid Shiba Miyuki",
+          "imageUrl": "images/image3.jpg",
+          "label": "Ready Stock",
+          "releaseDate": "Release November 2021",
+          "price": "530000"
+        }
+      ]
+    }
+  ]
+}
