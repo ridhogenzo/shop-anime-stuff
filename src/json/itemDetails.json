@@ -1,0 +1,67 @@
+{
+  "_id": "asd1293uasdads1",
+  "name": "Nendroid Nino Nakano",
+  "anime": "Gotoubun No Hanayome",
+  "type": "Nendroid",
+  "imageUrls": [
+    {
+      "_id": "asd1293uasdads1",
+      "url": "images/image1.jpg"
+    }
+  ],
+  "label": "Late Pre Order",
+  "releaseDate": " November 2021",
+  "distributor": "AmiAmi",
+  "friendlyPoint": "330",
+  "fullPrice": "550000",
+  "downPayment": "100000",
+  "dpDiscount": "30000",
+  "qty": "1",
+  "wishlist": "5000 Wishlist",
+  "estimatedArrival": "December 2021",
+  "description": "<p>I am... We are... truly experiencing romance for the first time.POP UP PARADE is a new series of figures that are easy to collect with affordable prices and speedy releases! Each figure typically stands around 17-18cm in height and the series features a vast selection of characters from popular anime and game series, with many more to be added soon! </p>",
+  "relatedItem": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Miku Nakano",
+      "url": "images/image2.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Ichika Kanano",
+      "url": "images/image3.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Yui Yuigahama",
+      "url": "images/image4.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Yukino Yukinoshita",
+      "url": "images/image2.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Miku Nakano",
+      "url": "images/image2.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nendroid Nino Nakano",
+      "url": "images/image1.jpg",
+      "label": "Ready Stock",
+      "price": "700000"
+    }
+  ]
+}

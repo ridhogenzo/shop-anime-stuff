@@ -1,45 +1,44 @@
-import { React, useState } from "react";
-import formatNumbering from "../utils/formatNumbering";
-import Button from "../elements/button";
+import React from "react";
+import Button from "../../elements/button";
+import formatNumbering from "../../utils/formatNumbering";
 
-export default function BestSeller(props) {
+export default function RelatedItem({ data }) {
   return (
-    <div className="container best-seller" ref={props.refBestSeller}>
-      <div className="font-weight-bold h3">Best Seller</div>
+    <div className="container">
+      <div className="font-weight-bold h3">Related Item</div>
       <div className="background-grid p-3">
         <div className="container-grid sm">
-          {props.data.map((item, index) => {
+          {data.relatedItem.map((related, index) => {
             return (
               <div
-                key={`bestseller-${index}`}
-                className={`item column-2${index === 0 ? " row-1" : ""}
-              }`}
+                key={`relateditem-${index}`}
+                className={`item column-2${index > 0 ? " row-1" : " "}`}
               >
                 <div className="card card-featured">
                   <figure className="img-wrapper">
                     <img
-                      src={item.imageUrl}
-                      alt={item.name}
+                      src={related.url}
+                      alt={related.name}
                       className="img-cover"
                     />
                   </figure>
                 </div>
                 <div className="meta-wrapper">
-                  <div className="label">{item.label}</div>
+                  <div className="label">{related.label}</div>
                   <Button
                     type="link"
-                    href={`/properties/${item._id}`}
+                    href={`/properties/${related._id}`}
                     className="streched-link d-block"
                   >
                     <h5 className="font-weight-medium text-truncate">
-                      {item.name}
+                      {related.name}
                     </h5>
                   </Button>
                   <span className="font-weight-light text-gray-500">
-                    {item.releaseDate}
+                    {related.release}
                   </span>
                   <h5 className="text-orange">
-                    IDR {formatNumbering(item.price)}
+                    IDR {formatNumbering(related.price)}
                   </h5>
                 </div>
               </div>

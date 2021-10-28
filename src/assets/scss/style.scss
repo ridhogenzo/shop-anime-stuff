@@ -53,6 +53,10 @@
   // }
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 // -------------------------------- VARIABLE HELPER ---------------->
 .img-cover {
   object-fit: cover;
@@ -177,23 +181,24 @@ button {
     span {
       font-size: 0.875rem;
     }
-    .label {
-      z-index: 3;
-      margin-top: 5px;
-      text-align: center;
-      font-size: 0.875rem;
-      background-color: green;
-      padding: 0.25rem 1.25rem;
-      position: relative;
-      color: white;
-      min-height: 30px;
-    }
   }
   .button-load-more {
     margin: auto 200px;
     .load-more {
       background-color: orange;
     }
+  }
+  .label {
+    z-index: 3;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.875rem;
+    background-color: green;
+    padding: 0.25rem 1.25rem;
+    position: relative;
+    color: white;
+    min-height: 30px;
+    border-radius: 5px;
   }
 }
 
@@ -216,3 +221,148 @@ button {
   border-radius: 1rem;
   background-color: rgba($orange, 0.2);
 }
+
+//-------------------------------- FOOTER ----------------------//
+
+footer {
+  border-top: 1px solid $gray-300;
+  background-color: rgba(#f7f7f7, 1);
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    background-color: rgba(#f7f7f7, 1);
+  }
+  .maps-animeshop {
+    border-radius: 1rem;
+    border: none;
+  }
+}
+
+//------------------------- PAGE DETAILS ------------------------------------------------------------------------
+
+//----------------- FEATURED IMAGE ---------------------------------------
+
+.title {
+  border-bottom: 3px solid $gray-300;
+  padding-top: 20px;
+}
+.card {
+  &.card-details {
+    border-radius: 0.9375rem;
+    overflow: hidden;
+    cursor: pointer;
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: scale(1.1);
+      transition: 0.5s transform ease-in-out;
+      z-index: 2;
+      @include gradient-y(rgba($black, 0), rgba($black, 0.45), 0%, 100%);
+    }
+  }
+  .img-wrapper {
+    height: 100%;
+    margin-bottom: 0px;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+  }
+}
+.labels {
+  z-index: 3;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: green;
+  padding: 0.25rem 1.25rem;
+  position: relative;
+  right: 100px;
+  color: white;
+  min-height: 30px;
+  &.detail-label {
+    border-radius: 1rem;
+    margin: 0 100px;
+  }
+}
+
+.down-payment {
+  font-size: 0.8275rem;
+  color: #808080;
+  &.payments {
+    border-left: 2px solid $gray-300;
+  }
+}
+
+.friendly-points {
+  font-size: 0.875rem;
+  padding-right: 30px;
+}
+
+.quantity {
+  input {
+    margin-left: 30px;
+  }
+}
+.release-date {
+  span {
+    color: rgba(101, 121, 150, 0.7);
+  }
+}
+
+button {
+  &.wish-list-btn {
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid $gray-300 !important;
+    &:hover {
+      background-color: #ff6600;
+    }
+  }
+  &.cart {
+    background-color: orange;
+    border-radius: 3px;
+    border: 2px solid $gray-300 !important;
+    position: relative;
+    width: 300px;
+    color: white;
+    &:hover {
+      background-color: #ff6600;
+    }
+  }
+}
+
+.detail-description {
+  border-top: 3px solid $gray-300;
+  .anime-detail {
+    border-radius: 1rem;
+    position: relative;
+    top: 5px;
+    color: black;
+    background-color: $gray-300;
+    cursor: pointer;
+    &:hover {
+      background-color: orange;
+    }
+  }
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .description-type {
+    font-size: 14px;
+  }
+  .btn-item {
+    text-decoration: none;
+  }
+}
+
+// .input-number {
+//   border-radius: 1rem;
+// }

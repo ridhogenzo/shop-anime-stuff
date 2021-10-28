@@ -6,9 +6,11 @@ import Nesoberi from "../assets/images/nesoberi.png";
 
 export default function SortBy() {
   return (
-    <div className="container p-0">
+    <section className="container p-0">
       <div className="col-auto align-items-center">
-        <div className="font-weight-bold">Categories</div>
+        <div className="font-weight-bold h3" style={{ marginTop: 30 }}>
+          Categories
+        </div>
         <div className="container-grid">
           <div className="item column-3 border-categories">
             <a href="#">
@@ -56,6 +58,6 @@ export default function SortBy() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

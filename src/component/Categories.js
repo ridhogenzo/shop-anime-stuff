@@ -5,7 +5,7 @@ import formatNumbering from "../utils/formatNumbering";
 export default function Categories({ data }) {
   return data.map((category, index1) => {
     return (
-      <div className="container" key={`category-${index1}`}>
+      <section className="container" key={`category-${index1}`}>
         <h4 className="mb-3 font-weight-medium">{category.name}</h4>
         <div className="background-grid p-3">
           <div className="container-grid sm">
@@ -55,7 +55,7 @@ export default function Categories({ data }) {
             )}
           </div>
         </div>
-      </div>
+      </section>
     );
   });
 }

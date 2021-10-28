@@ -5,7 +5,13 @@ import Ichika from "../assets/images/ichika.jpg";
 import Button from "../elements/button";
 import Toko from "../assets/images/toko.jpg";
 
-export default function Hero() {
+export default function Hero(props) {
+  function showBestSeller() {
+    window.scrollTo({
+      top: props.refBestSeller.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
   return (
     <div className="hero-section">
       <div className="container-fluid bg-hero">
@@ -17,7 +23,12 @@ export default function Hero() {
             <p className="mb-4 font-weight-light w-75">
               Search ur action figure, figma, nesoberi, and anime stuff here
             </p>
-            <Button isPrimary className="btn px-5" hasShadow>
+            <Button
+              isPrimary
+              className="btn px-5"
+              hasShadow
+              onClick={showBestSeller}
+            >
               Continue your journey
             </Button>
           </div>
