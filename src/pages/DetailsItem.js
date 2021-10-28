@@ -6,11 +6,15 @@ import Footer from "../component/Footer";
 import itemDetails from "../json/itemDetails.json";
 
 export class DetailsItem extends Component {
+  componentDidMount() {
+    window.title = "Details Page";
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <>
         <Navbar />
-        <FeaturedImage data={itemDetails.imageUrls}></FeaturedImage>
+        <FeaturedImage data={itemDetails.imageUrl}></FeaturedImage>
         <RelatedItem data={itemDetails}></RelatedItem>
         <div className="container p-4"></div>
         <Footer />
