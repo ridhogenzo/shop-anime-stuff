@@ -1,6 +1,6 @@
 import React from "react";
 import FeaturedDetails from "./FeaturedDetails";
-import itemDetails from "../../json/itemDetails.json";
+import ItemDetails from "../../json/itemDetails.json";
 export default function FeaturedImage({ data }) {
   return (
     <section className="pt-5">
@@ -29,7 +29,7 @@ export default function FeaturedImage({ data }) {
               );
             })}
             <div className="item column-6">
-              <FeaturedDetails data={itemDetails} />
+              <FeaturedDetails itemDetails={ItemDetails}></FeaturedDetails>
             </div>
           </div>
         </div>

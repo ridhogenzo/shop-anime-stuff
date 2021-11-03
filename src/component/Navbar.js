@@ -1,6 +1,9 @@
 import React from "react";
 import Logo from "../assets/images/mascot.png";
 import Kyou from "../assets/images/kyou.png";
+import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
+import { BiTransfer } from "react-icons/bi";
+import Button from "../elements/button";
 
 export default function Navbar() {
   return (
@@ -9,63 +12,36 @@ export default function Navbar() {
         <img src={Logo} alt="Logo" />
         <img src={Kyou} alt="Kyou" style={{ paddingLeft: 90 }} />
       </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="">
-              Home <span className="sr-only">(current)</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="">
-              Features
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="">
-              Pricing
-            </a>
-          </li>
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
-            </a>
-            <div
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <a className="dropdown-item" href="">
-                Action
-              </a>
-              <a className="dropdown-item" href="">
-                Another action
-              </a>
-              <a className="dropdown-item" href="">
-                Something else here
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link">
+            <Button type="link" href="/cart">
+              <AiOutlineShoppingCart size="2rem" color="orange" />
+            </Button>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link">
+            <Button type="link" href="/transaction">
+              <BiTransfer size="2rem" color="orange" />
+            </Button>
+          </a>
+        </li>
+        <li className="nav-item border-separate">
+          <a className="nav-link">
+            <Button type="link" href="/wishlist">
+              <AiOutlineHeart size="2rem" color="orange" />
+            </Button>
+          </a>
+        </li>
+        <li className="nav-item sign-in">
+          <a className="nav-link">
+            <Button type="link" href="/login">
+              <span className="text-orange">Sign In</span>
+            </Button>
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 }

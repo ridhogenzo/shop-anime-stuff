@@ -1,9 +1,8 @@
-@import "../../../assets/scss/style.scss";
+@import "../../../assets/scss/colorVariables";
 
 .input-number {
   .input-group {
     background-color: white;
-
     .input-group-text {
       border: 0;
       cursor: pointer;
@@ -16,10 +15,10 @@
       justify-content: center;
       user-select: none;
       &.minus {
-        background-color: $red;
+        background-color: green;
       }
       &.plus {
-        background-color: $blue;
+        background-color: $orange;
       }
     }
 
@@ -29,7 +28,7 @@
       min-height: 45px;
       outline: 0;
       box-shadow: none;
-      background-color: $gray-100;
+      background-color: white;
       padding: 0.575rem 1rem;
       text-align: center;
     }

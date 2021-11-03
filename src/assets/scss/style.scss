@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -69,8 +70,24 @@ section {
   height: 100%;
   width: 100%;
 }
+
+//-------------------------- LOGIN ---------------------------
+
+.login-logo {
+  margin: 0 auto;
+  object-fit: contain;
+  width: 120px;
+  height: 44px;
+  display: block;
+}
+
+.login-title {
+  text-align: center;
+  margin: 20px auto;
+}
 // <--------------------------------- NAVBAR ---------------------->
 .navbar {
+  height: 64px;
   .navbar-brand {
     img {
       position: absolute;
@@ -86,9 +103,28 @@ section {
   .navbar-nav {
     position: flex;
     margin-left: 70%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  #navbarNavDropdown {
+    margin-left: 200px;
   }
 }
+.search-box {
+  padding-left: 200px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
 
+.nav-item {
+  &.sign-in {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  &.border-separate {
+    border-right: 1px solid $gray-300;
+  }
+}
 // <------------------------------ Hero ------------------------->
 .container-fluid {
   &.bg-hero {

@@ -3,7 +3,7 @@ import Navbar from "../component/Navbar";
 import FeaturedImage from "../component/detailItem/FeaturedImage";
 import RelatedItem from "../component/detailItem/RelatedItem";
 import Footer from "../component/Footer";
-import itemDetails from "../json/itemDetails.json";
+import ItemDetails from "../json/itemDetails.json";
 
 export class DetailsItem extends Component {
   componentDidMount() {
@@ -14,8 +14,8 @@ export class DetailsItem extends Component {
     return (
       <>
         <Navbar />
-        <FeaturedImage data={itemDetails.imageUrl}></FeaturedImage>
-        <RelatedItem data={itemDetails}></RelatedItem>
+        <FeaturedImage data={ItemDetails.imageUrl}></FeaturedImage>
+        <RelatedItem data={ItemDetails}></RelatedItem>
         <div className="container p-4"></div>
         <Footer />
       </>
