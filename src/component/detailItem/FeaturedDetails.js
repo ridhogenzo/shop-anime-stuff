@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import propTypes from "prop-types";
 import formatNumbering from "../../utils/formatNumbering";
 import Button from "../../elements/button";
