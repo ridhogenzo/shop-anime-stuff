@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import propTypes from "prop-types";
 import formatNumbering from "../../utils/formatNumbering";
 import Button from "../../elements/button";
@@ -125,9 +125,9 @@ export default class FeaturedDetails extends Component {
           <Button className="wish-list-btn p-6">
             <AiOutlineHeart size="2rem" /> {itemDetails.wishlist}
           </Button>
-          {/* <Button className="ml-5 cart">
+          <Button className="ml-5 cart">
             <BsCart4 size="2rem" color="" /> Add to cart
-          </Button> */}
+          </Button>
         </div>
         <div className="detail-description mt-3">
           <div className="mt-2 item-description">
